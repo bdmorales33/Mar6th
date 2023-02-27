@@ -8,6 +8,7 @@ using namespace std;
 vector<string> oldPassword;
 bool saveLastPassword(string newPassword);
 void initializerPasswords();
+string authenticateUser(string username, string pass);
 
 int main()
 {
