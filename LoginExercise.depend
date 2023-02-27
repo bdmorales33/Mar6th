@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1677519974 source:c:\users\raf\documents\c++\loginexercise\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
