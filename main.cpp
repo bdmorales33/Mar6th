@@ -7,7 +7,7 @@ using namespace std;
 
 vector<string> oldPassword;
 bool saveLastPassword(string newPassword);
-void initializerPaswwords();
+void initializerPasswords();
 
 int main()
 {
@@ -46,7 +46,7 @@ bool saveLastPassword(string newPassword){
     return isUsed;
 }
 
-void initializerPaswwords(){
+void initializerPasswords(){
     oldPassword.push_back("clave1");
     oldPassword.push_back("clave2");
     oldPassword.push_back("clave3");
