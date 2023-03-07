@@ -9,6 +9,7 @@ vector<string> oldPassword;
 bool saveLastPassword(string newPassword);
 bool autenticarUsuario(string userName, string passw);
 void initializerPasswords();
+string authenticateUser(string username, string pass);
 
 int main()
 {
