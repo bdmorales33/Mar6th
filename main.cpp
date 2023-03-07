@@ -7,6 +7,7 @@ using namespace std;
 
 vector<string> oldPassword;
 bool saveLastPassword(string newPassword);
+bool autenticarUsuario(string userName, string passw);
 void initializerPasswords();
 
 int main()
@@ -17,9 +18,9 @@ int main()
 
     bool salida = saveLastPassword("clave7");
     if(salida){
-        cout<<"se adicionó la clave";
+        cout<<"se adicionÃ³ la clave";
     }else
-        cout<<"contraseña ya ha sido usada";
+        cout<<"contraseÃ±a ya ha sido usada";
 
     cout<<endl;
     for(auto i : oldPassword){
@@ -53,3 +54,4 @@ void initializerPasswords(){
     oldPassword.push_back("clave4");
     oldPassword.push_back("clave5");
 }
+
